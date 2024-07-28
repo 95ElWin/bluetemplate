@@ -7,4 +7,40 @@ body{
     height: 100vh;
     background-image: url(../images/templatemo_side_bg.gif);
     background-repeat: repeat-x;
+    padding: 20px 0px;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    border-radius: 12px;
+    overflow: hidden;
+}
+header{
+    background-image: url(../images/templatemo_top_bg.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 85px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    border-radius: 12px;
+}
+header ul li{
+    float: left;
+    list-style-type: disc;
+    margin-right: 12px;
+    list-style-position: inside;
+}
+header ul li:first-child{
+    list-style: none;
+}
+header ul a{
+    color: blue;
+}
+header ul a:hover{
+    text-decoration: underline;
+    color: green;
 }
