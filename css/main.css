@@ -16,6 +16,7 @@ body{
     background-color: #F6F6F6;
     border-radius: 12px;
     overflow: hidden;
+    padding: 0px 12px;
 }
 header{
     background-image: url(../images/templatemo_top_bg.gif);
@@ -43,4 +44,10 @@ header ul a{
 header ul a:hover{
     text-decoration: underline;
     color: green;
+}
+#Banner{
+    height: 150px;
+    background-image: url(../images/templatemo_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
