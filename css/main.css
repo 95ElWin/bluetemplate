@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-image: url(../images/templatemo_bg.gif);
     background-repeat: repeat;
+    font-family: "Montserrat", sans-serif;
 }
 .parent{
     width: 100%;
@@ -11,7 +13,6 @@ body{
 }
 .container{
     width: 50%;
-    height: 100%;
     margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
@@ -53,4 +54,29 @@ header ul a:hover{
     border-radius: 12px;
     text-align: center;
     padding: 50px 0px;
+    margin-bottom: 16px;
+}
+#Banner h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#Banner p{
+    color: #aaffff;
+    font-size: 13px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+main, aside{
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 400px;
+}
+main{
+    width: calc(70% - 12px);
+    float: left;
+}
+aside{
+    width: 30%;
+    float: right;
 }
