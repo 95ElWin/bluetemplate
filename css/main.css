@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+ --blue-500: #0066cc;       
+}
 body{
     background-image: url(../images/templatemo_bg.gif);
     background-repeat: repeat;
@@ -6,17 +9,19 @@ body{
 }
 .parent{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../images/templatemo_side_bg.gif);
     background-repeat: repeat-x;
     padding: 20px 0px;
 }
 .container{
     width: 50%;
+    height: 100%;
     margin: 0 auto;
     border-radius: 12px;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 0px 12px;
+    padding-bottom: 20px;
     background: white;
 }
 header{
@@ -70,7 +75,7 @@ header ul a:hover{
 main, aside{
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    height: 400px;
+    padding: 20px;
 }
 main{
     width: calc(70% - 12px);
@@ -79,4 +84,54 @@ main{
 aside{
     width: 30%;
     float: right;
+}
+main h2,
+main h3{
+    color:var(--blue-500);
+}
+main p{
+    font-weight: 500;
+    margin-top: 20px;
+}
+main .article-list{
+    margin-top: 40px;
+}
+main article{
+    margin-top: 20px;
+    background-color: #f6f6f6;
+}
+main article h3{
+    background-color: #ddeeff;
+    padding: 8px 12px;
+}
+main .article-text{
+    padding: 16px;
+}
+main .article-text img{
+    float: left;
+    margin-right: 12px;
+    border: 2px solid;
+}
+main .article-footer{
+    color: #999999;
+    font-weight: 600;
+    padding: 0px 16px 40px;
+}
+main .article-footer div{
+    float: left;
+}
+main .article-footer ul{
+    float: left;
+    margin-left: 12px;
+}
+main .article-footer li{
+    float: left;
+    margin-right: 12px;
+}
+main .article-footer li::before{
+    content: "•";
+    margin-right: 8px;
+}
+main .article-footer li:first-child::before{
+    content: "";
 }
