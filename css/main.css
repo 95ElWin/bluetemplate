@@ -84,6 +84,7 @@ main{
 aside{
     width: 30%;
     float: right;
+    height: 906px;
 }
 main h2,
 main h3{
@@ -134,4 +135,65 @@ main .article-footer li::before{
 }
 main .article-footer li:first-child::before{
     content: "";
+}
+aside nav li{
+    background: #F4F4F4;
+    margin-bottom: 4px;
+    padding: 8px;
+    border-left: 12px solid rgb(66, 65, 65);
+}
+aside nav li:hover{
+    border-color: var(--blue-500);
+    background: #eeeeee;
+}
+aside nav li:hover a{
+    color: red;
+}
+aside nav li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--blue-500);
+}
+.card{
+    background: #eeeeee;
+    padding: 12px;
+    margin-top: 20px;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.card h3{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+aside .quick-contact address{
+    font-style: normal;
+    font-weight: 500;
+}
+aside .quick-contact p{
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+aside .about p{
+    font-size: 16px;
+    font-weight: 500;
+}
+aside .about img{
+    margin-top: 16px;
+}
+aside .link ul{
+    margin-top: 16px;
+}
+aside .link li{
+    margin-bottom: 4px;
+}
+aside .link a{
+    font-weight: 500;
+    color: var(--blue-500);
+}
+footer{
+    clear: both;
+    font-size: 14px;
+    padding: 10px 0px 0px;
+    text-align: center;
 }
